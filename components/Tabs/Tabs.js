@@ -18,8 +18,6 @@ class TabLink {
       this.cards = document.querySelectorAll(`.card[data-tab=${this.tabData}]`);
     }
 
-    console.log(this);
-
     // Map over the newly converted NodeList we just created in our if statement above. Convert each this.cards 
     // element into a new instance of the TabCard class. Pass in a card object to the TabCard class. 
     this.cards = Array.from(this.cards).map(el => new TabCard(el));
