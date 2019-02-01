@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The Document Object Model is the api we use to interact with the browser.
+
 2. What is an event?
+
+    The Event constructor is from an event listener when the DOM identifies an event has taken place, examples of an event are mouse events, window events and keyboard events.
 
 3. What is an event listener?
 
+    Event listeners are Document methods which listen out for an event taking place within the scope of the variable it is chained to.
+
 4. Why would we convert a NodeList into an Array?
 
+    We would convert a NodeList into an Array to have access to all Array methods.
+
 5. What is a component?
+
+    A front-end component is an encapsulated, reusable piece of code that most commonly consists of html, css and javascript.
 
 ### Git Set up
 
