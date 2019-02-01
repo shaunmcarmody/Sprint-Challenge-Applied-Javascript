@@ -40,23 +40,6 @@ class Carousel {
         this.current = this.images[0];
         this.current.style.display = 'block';
     }
-
-    // select(direction) {
-    //     this.current.style.display = 'none';
-    //     if (direction === 'left') {
-    //         const image = this.images.pop();
-    //         this.images.unshift(image);
-    //     } else if (direction === 'right') {
-    //         const image = this.images.shift();
-    //         this.images.push(image);
-    //     }
-
-    //     this.current = this.images[0];
-
-    //     console.log(this.images);
-    //     console.log(this.current);
-    //     this.current.style.display = 'block';
-    // }
 }
 
 let carousel = document.querySelector('.carousel');
